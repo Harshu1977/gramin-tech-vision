@@ -72,7 +72,9 @@ const Footer = () => {
                 </svg>
               </a>
               <a
-                href="#"
+                href="https://chat.whatsapp.com/CeGgkyhhCyU5e0wN6TJOL7"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="p-3 bg-muted rounded-xl hover:bg-primary hover:text-white transition-all"
                 aria-label="WhatsApp"
               >
@@ -84,9 +86,20 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="mt-12 pt-8 border-t border-border text-center">
+        <div className="mt-12 pt-8 border-t border-border text-center space-y-2">
           <p className="text-sm text-muted-foreground">
             {t('copyright')}
+          </p>
+          <p className="text-xs text-muted-foreground/70">
+            Social Initiative By{' '}
+            <a 
+              href="https://xplorevo.com" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="hover:text-primary transition-colors"
+            >
+              Xplorevo Pvt Ltd
+            </a>
           </p>
         </div>
       </div>
